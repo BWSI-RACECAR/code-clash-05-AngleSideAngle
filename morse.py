@@ -119,7 +119,7 @@ class Solution:
                     res += MORSE_CODE_DICT[ch]
                     res += " "
                 res += " "
-            return [MORSE_CODE_DICT[ch] [word for word in message.split()]]
+            return res
 
 def main():
      str1=input()
